@@ -636,17 +636,19 @@ a {
 /* --- Footer --- */
 .footer-section {
   background-color: var(--color-bg-black);
-  padding: 8rem 6rem 4rem;
+  padding: 4rem 2rem 4rem;
   border-top: 1px solid #111;
   position: relative;
   z-index: 5;
 }
 
-.footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 6rem;
-  max-width: 1400px;
+.footer-simple-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
   margin: 0 auto;
 }
 
